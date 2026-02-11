@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Crely Project Specifics
+# Ignore PhysioNet data files
+*.dat
+*.hea
+*.atr
+*.csv
+*.bin
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
